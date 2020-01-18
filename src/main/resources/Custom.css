@@ -1,0 +1,67 @@
+.toggleSelectedGreen:selected {
+    -fx-text-fill: black;
+    -fx-base: lightgreen;
+    -fx-background: transparent;
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+}
+
+.TitleTitlePaneTransparent > .title 
+{
+	-fx-background-color: transparent;
+	-fx-box-border: transparent;
+	-fx-inner-border: transparent;
+	-fx-body-color: transparent;
+}
+
+.hideEmpty .table-row-cell:empty {
+    -fx-background-color: white;
+}
+ 
+.hideEmpty .table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+.hideEmpty .list-cell:empty {
+    -fx-background-color: white;
+}
+
+
+
+/* .combo-box .combo-box-popup .list-view, .combo-box .combo-box-popup .list-cell {
+    -fx-background-color: black ;
+    -fx-text-fill: white ;
+    -fx-font-family: "Calibri" ;
+}
+.combo-box .combo-box-popup .list-cell:hover {
+    -fx-text-fill: yellow ;
+    -fx-background-color: green ;
+} */
+
+ .combo-box:nth-child(odd){
+
+-fx-background-color:purple; 
+
+ }
+
+/*Edit Normal Cell color */
+ .combo-box .list-cell{
+
+-fx-background-color:blue;
+
+
+}
+
+/*Edit Cell Color Only when cursor hover cell */
+.combo-box .list-cell:hover{
+
+-fx-background-color:green;
+}
+
+/*Edit Cell Color Only when selected */
+.combo-box .list-cell:selected{
+
+-fx-background-color:blue; 
+
+}
